@@ -1,4 +1,22 @@
+.slick-arrow {
+    &:hover {
+        cursor: pointer;
+        background: #ccc;
+    }
+}
+.slick-prev {
+    background: red;
+    left: 0;
+}
+.slick-next {
+    background: red;
+    right: 0;
+}
+.carousel-inner {
+    height: 350px;
+}
 .wrapper {
+    background: #f5f5f5;
     .header_with_search_wrapper {
         background: #ff5722;
         padding: 15px 0;
@@ -81,6 +99,36 @@
                     &:hover {
                         cursor: pointer;
                         text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .list_category {
+
+        padding: 20px 0;
+        background: #fff;
+        .container {
+            .list_category__label {
+                color: rgba(0,0,0,.8);
+                text-transform: capitalize;
+                font-weight: bold;
+            }
+            .category_recommened_search__list {
+                text-align: center;
+                .category_recommened_search__item {
+                    >a {
+                        color:#fff;
+                        background: #ff5619;
+                        text-decoration: none;
+                        border: 1px solid;
+                        border-radius: 3px;
+                        padding: 4px 30px;
+                        &:hover {
+                            cursor: pointer;
+                            text-decoration: underline;
+                        }
                     }
                 }
             }

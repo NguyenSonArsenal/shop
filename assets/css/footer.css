@@ -1,0 +1,31 @@
+.wrapper .footer {
+  background: #f5f5f5;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 20px 0;
+  border-top: 2px solid #ff3e00;
+}
+.wrapper .footer .container .footer__copyright {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.wrapper .footer .container .footer__policy .footer__policy_item {
+  border-right: 1px solid rgba(0, 0, 0, 0.09);
+}
+.wrapper .footer .container .footer__policy .footer__policy_item:hover {
+  cursor: pointer;
+}
+.wrapper .footer .container .footer__policy .footer__policy_item_no_border_right {
+  border-right: none;
+}
+.wrapper .footer .container .footer__legal {
+  margin: 15px 0;
+}
+.wrapper .footer .container .footer__legal > img {
+  width: 70px;
+}
+.wrapper .footer .container .footer__legal > img:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=footer.css.map */
