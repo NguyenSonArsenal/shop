@@ -123,7 +123,11 @@
   text-decoration: underline;
 }
 .wrapper .recommend_product_wrapper {
-  border: 1px solid red;
+  padding: 10px 0;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__header {
+  margin-left: -15px;
+  margin-bottom: 10px;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__header .recommend_product_wrapper__header_title {
   color: rgba(0, 0, 0, 0.54);
@@ -140,11 +144,25 @@
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__header .recommend_product_wrapper__header_link:hover {
   text-decoration: underline;
 }
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+  margin-left: -15px;
+  margin-right: -5px;
+}
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_cover_img {
   width: 100%;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_cover_img .cover_img {
   width: 100%;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_cover_img:hover {
+  padding: 2px;
+  cursor: pointer;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail {
+  padding: 3px 0 6px 0;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_text_name {
   overflow: hidden;
@@ -155,7 +173,51 @@
   line-height: 21px;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_text_name:hover {
-  color: #000;
+  color: #0168b8;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product__price_box {
+  margin: 6px 0 12px 0;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product__price_box .item_price {
+  display: inline-block;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product__price_box .sale_price {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.54);
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product__price_box .old_price {
+  color: #ff5722;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions {
+  display: inline-flex;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_like {
+  margin-right: 30px;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_like .link_icon_like .fa-heart-o {
+  color: rgba(0, 0, 0, 0.26);
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_comment {
+  display: inline-flex;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_comment .stars {
+  display: inline-flex;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_comment .stars .start_item .a_link_star {
+  margin-right: 1px;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_comment .stars .start_item .a_link_star .fa-star-o {
+  color: #ffce3d;
+  fill: #ffce3d;
+}
+.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item:hover {
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 /*# sourceMappingURL=index.css.map */
