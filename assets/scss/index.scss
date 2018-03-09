@@ -134,4 +134,48 @@
             }
         }
     }
+
+    .recommend_product_wrapper {
+        border: 1px solid red;
+        .recommend_product_wrapper__header {
+            .recommend_product_wrapper__header_title {
+                color: rgba(0,0,0,.54);
+                font-weight: bold;
+                .update_time_label {
+                    color: rgba(0,0,0,.4);
+                    font-weight: normal;
+                }
+            }
+            .recommend_product_wrapper__header_link {
+                text-decoration: none;
+                color: #ff5722;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .recommend_product_wrapper__content {
+            .recommend_product__item {
+                .recommend_product__item_cover_img {
+                    width: 100%;
+                    .cover_img {
+                        width: 100%;
+                    }
+                }
+                .recommend_product__item_detail {
+                    .recommend_product_text_name {
+                        overflow: hidden;
+                        height: 45px;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        display: -webkit-box;
+                        line-height: 21px;
+                        &:hover {
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
