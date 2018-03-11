@@ -1,16 +1,18 @@
+.slick-arrow {
+  height: 28px;
+}
 .slick-arrow:hover {
   cursor: pointer;
-  background: #ccc;
 }
 
 .slick-prev {
-  background: red;
-  left: 0;
+  left: 15px;
+  z-index: 100;
 }
 
 .slick-next {
-  background: red;
-  right: 0;
+  right: 15px;
+  z-index: 100;
 }
 
 .carousel-inner {
@@ -101,6 +103,7 @@
 .wrapper .list_category {
   padding: 20px 0;
   background: #fff;
+  line-height: 50px;
 }
 .wrapper .list_category .container .list_category__label {
   color: rgba(0, 0, 0, 0.8);
@@ -110,15 +113,17 @@
 .wrapper .list_category .container .category_recommened_search__list {
   text-align: center;
 }
-.wrapper .list_category .container .category_recommened_search__list .category_recommened_search__item > a {
+.wrapper .list_category .container .category_recommened_search__list .category_recommened_search__item {
+  width: 150px;
+  height: 50px;
   color: #fff;
   background: #ff5619;
   text-decoration: none;
   border: 1px solid;
-  border-radius: 3px;
-  padding: 4px 30px;
+  border-radius: 10px;
+  margin-right: 10px;
 }
-.wrapper .list_category .container .category_recommened_search__list .category_recommened_search__item > a:hover {
+.wrapper .list_category .container .category_recommened_search__list .category_recommened_search__item:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -162,7 +167,7 @@
   cursor: pointer;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail {
-  padding: 3px 0 6px 0;
+  padding: 3px 5px 6px 5px;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_text_name {
   overflow: hidden;
@@ -180,30 +185,30 @@
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product__price_box {
   margin: 6px 0 12px 0;
 }
-.wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product__price_box .item_price {
-  display: inline-block;
-}
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product__price_box .sale_price {
-  text-decoration: line-through;
   color: rgba(0, 0, 0, 0.54);
+  float: left;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product__price_box .old_price {
+  text-decoration: line-through;
   color: #ff5722;
+  float: right;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions {
-  display: inline-flex;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.26);
   cursor: pointer;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_like {
   margin-right: 30px;
+  float: left;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_like .link_icon_like .fa-heart-o {
   color: rgba(0, 0, 0, 0.26);
+  font-size: 10px;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_comment {
-  display: inline-flex;
+  float: right;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_comment .stars {
   display: inline-flex;
@@ -214,6 +219,7 @@
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item .recommend_product__item_detail .recommend_product_actions .recommend_product_comment .stars .start_item .a_link_star .fa-star-o {
   color: #ffce3d;
   fill: #ffce3d;
+  font-size: 10px;
 }
 .wrapper .recommend_product_wrapper .recommend_product_wrapper__content .recommend_product__item:hover {
   border-radius: 4px;
