@@ -1,0 +1,166 @@
+.wrapper {
+    .session_cart_wrapper {
+        margin: 20px 0 12px;
+        .container {
+            .cart_content {
+                background: #fff;
+                border: 1px solid red;
+                height: 200px;
+                .product_img_cover {
+                    border: 1px solid #d4d4d4;
+                    background: #ccc;
+                    padding: 10px;
+                    .product_img {
+                        width: 75%;
+                        object-fit: cover;
+                    }
+                }
+                .detail_product_cart {
+                    .margin20 {
+                        margin-bottom: 10px;
+                        height: 30px;
+                        line-height: 30px;
+                        .width150 {
+                            width: 100px;
+                            display: inline-block;
+                        }
+                    }
+                    .product_name {
+                        display: block;
+                        font-size: 20px;
+                        color: #333;
+                        margin-top: 5px;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                    .price {
+                        .txt_price {
+                            font-size: 15px;
+                            color: #f37021;
+                            font-weight: bold;
+                        }
+                        .txt_total_price {
+                            font-size: 30px;
+                            color: #f37021;
+                            font-weight: bold;
+
+                            position: absolute;
+                        }
+                    }
+                    .set_number_product {
+                        display: inline-flex;
+                        height: 30px;
+                        line-height: 30px;
+                        .fix_number_width {
+                            width: 120px;
+                            display: inline-flex;
+                            .btn_outline {
+                                border: 1px solid #a8a8a8;
+                                padding: 0 10px;
+                                background: #fff;
+                                .fa {
+                                    line-height: 30px;
+                                }
+                                &:hover {
+                                    background: #e5e5e5;
+                                }
+                            }
+                            .btn_outline:focus {
+                                outline: none;
+                            }
+                            .btn_add {
+                                border-right:none;
+                            }
+                            .btn_buying {
+                                border-left:none;
+                            }
+                            .input_number_product {
+                                border-radius: 0;
+                                padding: 6px 19px;
+                                width: 50px;
+                            }
+                            .input_number_product:focus {
+                                outline: none;
+                            }
+                        }
+                        @media (max-width: 480px) {
+                            .fix_number_width {
+                                width: 60px;
+                            }
+                        }
+                    }
+                    .action {
+                        .action_delete_product {
+                            background: #f37021;
+                            text-transform: uppercase;
+                            color: #fff;
+                            height: 25px;
+                            line-height: 25px;
+                            display: inline-block;
+                            text-decoration: none;
+                            padding: 0 10px;
+                            &:hover {
+                                cursor: pointer;
+                                background: #ccc;
+                            }
+                        }
+                    }
+                }
+            }
+            .payment {
+                background: #fff;
+                border: 1px solid red;
+                .payment_label {
+                    font-weight: bold;
+                    color: #333;
+                    border-bottom: 1px dashed #ccc;
+                    padding-bottom: 5px;
+                    margin-bottom: 10px;
+                }
+                .payment_main {
+                    border-bottom: 1px dashed #ccc;
+                    padding-bottom: 30px;
+                    margin-bottom: 10px;
+                    .main_lbl {
+
+                    }
+                    .main_price {
+
+                    }
+                }
+                .payment_total {
+                    padding-bottom: 30px;
+                    margin-bottom: 10px;
+                    .total_lbl {
+                        .txt_total_lbl {
+                            font-weight: bold;
+                        }
+                    }
+                    .total_price {
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                }
+                .payment_control {
+                    text-align: center;
+                    .link_control {
+                        text-decoration: none;
+                        color: #fff;
+                        display: inline-block;
+                        width: 100%;
+                        background: #f37021;
+                        line-height: 50px;
+                        height: 50px;
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        &:hover {
+                            cursor: pointer;
+                            background: #ccc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

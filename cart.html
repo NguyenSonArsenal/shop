@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Do_an</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--font awesome -->
+    <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/bower_components/slick/slick.css" rel="stylesheet">
+    <link href="/bower_components/slick/slick-theme.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header_with_search_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="header_with_search__logo">
+                        <img src="./assets/images/logos/logo_1.png" alt="img name">
+                        <span>Shop</span>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="header_with_search__input_search">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-8">
+                                <input type="text" placeholder="Tim san pham, thuong hieu"
+                                       class="input_search">
+                            </div>
+                            <div class="col-xs-6 col-sm-2">
+                                <a href="" class="btn_search">Search</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-2">
+                                <a href="" class="btn_search header_with_search__cart">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    <small>2</small>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="header_with_search__authenticate">
+                        <span>Dang nhap</span>
+                        <span>&nbsp;|&nbsp;</span>
+                        <span>Dang xuat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="session_cart_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="cart_content">
+                        <div class="row ">
+                            <div class="col-xs-4">
+                                <div class="product_img_cover">
+                                    <img src="./assets/images/products/recommend/product_1.jpeg"
+                                         alt="img name"
+                                         class="product_img"
+                                    >
+                                </div>
+                            </div>
+                            <div class="col-xs-8">
+                                <div class="detail_product_cart">
+                                    <div class="margin20 product_name">
+                                        Sách Lối Sống Tối Giản Của Người Nhật
+                                    </div>
+                                    <div class="margin20 price">
+                                        <span class="width150">Don gia</span>
+                                        <span class="txt_price">100000d</span>
+                                    </div>
+                                    <div class="margin20 set_number_product">
+                                        <div class="width150 lbl_quantity">SO LUONG</div>
+                                        <div class="fix_number_width">
+                                            <button href="" class="btn_outline btn_add"><i class="fa fa-minus"></i></button>
+                                            <input type="text" name="quant[1]"
+                                                   class="input_number_product"
+                                                   value="1">
+                                            <button href="" class="btn_outline btn_buying"><i class="fa fa-plus"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="margin20 price total_price">
+                                        <span class="width150">Tong tien</span>
+                                        <span class="txt_total_price">100000d</span>
+                                    </div>
+                                    <div class="action">
+                                        <a href="" class="action_delete_product">Xoa san pham</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="payment">
+                        <div class="add_boder payment_label">Thong tin don hang</div>
+                        <div class="add_boder payment_main">
+                            <div class="main_lbl pull-left">Tạm tính:</div>
+                            <div class="main_price pull-right">174.200 VND</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="payment_total">
+                            <div class="total_lbl pull-left">
+                                <span class="txt_total_lbl">Tổng tiền</span>
+                                <small class="small_total_lbl">(Đã bao gồm VAT)</small>:
+                            </div>
+                            <div class="total_price pull-right">174.200 VND</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="payment_control">
+                            <a href="" class="link_control">Tien hanh thanh toan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row footer__copyright">
+                <div class="col-sm-6">
+                    © 2018 Shopee. Tất cả các quyền được bảo lưu
+                </div>
+                <div class="col-sm-6">
+                    Country & Region: <span>Singapore</span> | <span>Indonesia</span>| <span>Đài Loan</span> |;
+                    <span>Thái Lan</span> | <span>Malaysia</span>| <span>Việt Nam</span> | <span>Philippine</span>
+                </div>
+            </div>
+            <div class="row footer__policy">
+                <div class="col-xs-3 col-sm-offset-2 col-sm-2 footer__policy_item">
+                    <span>CHÍNH SÁCH BẢO MẬT</span>
+                </div>
+                <div class="col-xs-3 col-sm-2 footer__policy_item">
+                    <span>CHÍNH SÁCH BẢO MẬT</span>
+                </div>
+                <div class="col-xs-3 col-sm-2 footer__policy_item">
+                    <span>CHÍNH SÁCH BẢO MẬT</span>
+                </div>
+                <div class="col-xs-3 col-sm-2 footer__policy_item footer__policy_item_no_border_right">
+                    <span>CHÍNH SÁCH BẢO MẬT</span>
+                </div>
+            </div>
+            <div class="footer__legal">
+                <img src="/assets/images/legal/banquyen_1.png" alt="name image">
+                <img src="/assets/images/legal/banquyen_2.png" alt="name image">
+                <span>Công ty TNHH Shopee</span>
+            </div>
+            <div class="footer__legal_detail">
+            <span>Địa chỉ: Tầng 15, Tòa nhà Petronas, 235 Nguyễn Văn Cừ, phường Nguyễn Cư Trinh, quận 1, TPHCM. Tổng đài hỗ trợ: 19001221 - Email: support@shopee.vn <br>
+                Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015<br>
+                © 2015 - Bản quyền thuộc về Công ty TNHH Shopee</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/bower_components/slick/slick.min.js"></script>
+
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/banner.js"></script>
+
+
+
+</body>
+</html>
