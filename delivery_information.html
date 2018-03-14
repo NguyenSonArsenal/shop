@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Do_an</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--font awesome -->
+    <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/bower_components/slick/slick.css" rel="stylesheet">
+    <link href="/bower_components/slick/slick-theme.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/delivery_information.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header_with_search_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="header_with_search__logo">
+                        <img src="./assets/images/logos/logo_1.png" alt="img name">
+                        <span>Shop</span>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="header_with_search__input_search">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-8">
+                                <input type="text" placeholder="Tim san pham, thuong hieu"
+                                       class="input_search">
+                            </div>
+                            <div class="col-xs-6 col-sm-2">
+                                <a href="" class="btn_search">Search</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-2">
+                                <a href="" class="btn_search header_with_search__cart">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    <small>2</small>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="header_with_search__authenticate">
+                        <span>Dang nhap</span>
+                        <span>&nbsp;|&nbsp;</span>
+                        <span>Dang xuat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="session_delivery_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="shipping_form">
+                        <div class="delivery_header">
+                            <div class="title pull-left">Địa chỉ giao hàng của quý khách</div>
+                            <div class="title pull-right">
+                                <a href="link_login" class="link_login">Đăng nhập để đặt hàng</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <form action="#" class="form_info_user">
+                            <div class="form-group row">
+                                <label class="col-xs-4 lbl lbl_email">Email</label>
+                                <input type="text" class="col-sm-5 input input_email"
+                                       placeholder="email" name="email">
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-xs-4 lbl lbl_name">Name</label>
+                                <input type="text" class="col-sm-5 input input_name"
+                                       placeholder="Ho va ten" name="name">
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-xs-4 lbl lbl_sdt">Sdt</label>
+                                <input type="text" class="col-sm-5 input input_phone"
+                                        placeholder="09..." name="phoneNumber">
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-xs-4 lbl lbl_city">Tinh/thanh pho</label>
+                                <select name="selectCity" class="input select">
+                                    <option value="">Ha Noi</option>
+                                    <option value="">Ho Chi Minh</option>
+                                    <option value="">Da Nang</option>
+                                </select>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-xs-4 lbl lbl_district">Quan/huyen</label>
+                                <select name="selectDistrict" class="input select">
+                                    <option value="">Lựa chọn</option>
+                                    <option value="">QUan hoan kiem</option>
+                                    <option value="">Quan Hai Ba Trung</option>
+                                </select>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-xs-4 lbl lbl_village">Xa/phuong</label>
+                                <select name="selectVillage" class="input select">
+                                    <option value="">Lựa chọn</option>
+                                    <option value="">Phuong Chuong Duong</option>
+                                    <option value="">Phuong Bach Dang</option>
+                                </select>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-xs-4 lbl lbl_address">Địa chỉ nhận hàng (tầng, số nhà, đường)</label>
+                                <textarea name="address" class="textarea"></textarea>
+                            </div>
+                            <div class="delivery_option_wrap">
+                                <span class="title">Thông tin giao hàng</span>
+                                <div class="delivery_options">
+                                    <div class="delivery_options_item">
+                                        <input class="radio" type="radio" name="radio_delivery" checked="checked">
+                                        <div class="info_option_delivery">
+                                            <small class="info_top">Giao hàng tiết kiệm: Miễn phí</small>
+                                            <span class="infor_bottom_date">
+                                                Giao từ Thứ Hai, 19 - Thứ Tư, 21 Tháng 3 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="delivery_options_item">
+                                        <input class="radio" type="radio" name="radio_delivery">
+                                        <div class="info_option_delivery">
+                                            <small class="info_top">Giao hàng tiêu chuẩn: 15.000 VND</small>
+                                            <span class="infor_bottom_date">
+                                                Giao từ Thứ Tư, 14 - Thứ Bảy, 17 Tháng 3 2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="submit" class="btn_submit" value="Tiep tuc >>">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="checkout">
+                        <span class="title">Thông tin đơn hàng
+                            <span class="txt_quantity">(1 sản phẩm)</span>
+                        </span>
+                        <table class="table">
+                            <tr class="row tr tr_thead">
+                                <td class="col-xs-4 th bordertop0 th_product">Sản phẩm</td>
+                                <td class="col-xs-3 th bordertop0 th_quantity">Số lượng</td>
+                                <td class="col-xs-3 th bordertop0 th_price">Giá</td>
+                            </tr>
+                            <tr class="row tr">
+                                <td class="col-xs-4 td td_product">
+                                    <a href="" class="product_name">bột ngũ cốc</a>
+                                </td>
+                                <td class="col-xs-3 td td_quantity">1</td>
+                                <td class="col-xs-3 td td_price">100.000đ</td>
+                            </tr>
+                            <tr class="row tr">
+                                <td class="col-xs-4 td td_product">
+                                    <a href="" class="product_name">bột ngũ cốc</a>
+                                </td>
+                                <td class="col-xs-3 td td_quantity">1</td>
+                                <td class="col-xs-3 td td_price">100.000đ</td>
+                            </tr>
+                        </table>
+                        <div class="delivery_wrap">
+                            <strong class="title">Giao hàng tiêu chuẩn</strong>
+                            <span class="delivery_time">Thứ Tư, 14 - Thứ Sáu, 16 Tháng 3 2018</span>
+                        </div>
+                        <div class="total_prices">
+                            <div class="pading5 top_total">
+                                <span class="txt_tmp pull-left">Tam tinh</span>
+                                <span class="txt_tmp txt_tmp_price pull-right">15.000 VND</span>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="pading5 middle_total">
+                                <span class="txt_ship pull-left">Phí vận chuyển</span>
+                                <span class="txt_ship txt_ship_price pull-right">15.000 VND</span>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="bottom_total">
+                                <span class="txt_total_price pull-left">Tổng tiền</span>
+                                <span class="txt_total_price txt_tmp txt_total_price__price pull-right">15.000 VND</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row footer__copyright">
+                <div class="col-sm-6">
+                    © 2018 Shopee. Tất cả các quyền được bảo lưu
+                </div>
+                <div class="col-sm-6">
+                    Country & Region: <span>Singapore</span> | <span>Indonesia</span>| <span>Đài Loan</span> |;
+                    <span>Thái Lan</span> | <span>Malaysia</span>| <span>Việt Nam</span> | <span>Philippine</span>
+                </div>
+            </div>
+            <div class="row footer__policy">
+                <div class="col-xs-3 col-sm-offset-2 col-sm-2 footer__policy_item">
+                    <span>CHÍNH SÁCH BẢO MẬT</span>
+                </div>
+                <div class="col-xs-3 col-sm-2 footer__policy_item">
+                    <span>CHÍNH SÁCH BẢO MẬT</span>
+                </div>
+                <div class="col-xs-3 col-sm-2 footer__policy_item">
+                    <span>CHÍNH SÁCH BẢO MẬT</span>
+                </div>
+                <div class="col-xs-3 col-sm-2 footer__policy_item footer__policy_item_no_border_right">
+                    <span>CHÍNH SÁCH BẢO MẬT</span>
+                </div>
+            </div>
+            <div class="footer__legal">
+                <img src="/assets/images/legal/banquyen_1.png" alt="name image">
+                <img src="/assets/images/legal/banquyen_2.png" alt="name image">
+                <span>Công ty TNHH Shopee</span>
+            </div>
+            <div class="footer__legal_detail">
+            <span>Địa chỉ: Tầng 15, Tòa nhà Petronas, 235 Nguyễn Văn Cừ, phường Nguyễn Cư Trinh, quận 1, TPHCM. Tổng đài hỗ trợ: 19001221 - Email: support@shopee.vn <br>
+                Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015<br>
+                © 2015 - Bản quyền thuộc về Công ty TNHH Shopee</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/bower_components/slick/slick.min.js"></script>
+
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/banner.js"></script>
+
+
+
+</body>
+</html>

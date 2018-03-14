@@ -1,0 +1,208 @@
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    //border:1px solid #33a3b3;
+}
+input, select, textarea {
+    //background: #fafafa;
+}
+.wrapper {
+    .session_delivery_wrapper {
+        background: #fff;
+        padding: 20px 0;
+        .container {
+            .shipping_form {
+                border: 1px solid #dde2e4;
+                padding-bottom: 20px;
+                .delivery_header {
+                    border-bottom: 1px solid #dde2e4;
+                    .title {
+                        font-weight: bold;
+                        font-size: 16px;
+                        color: #202020;
+                        line-height: 35px;
+                        .link_login {
+                            color: #2b9fb8;
+                            font-size: 13px;
+                            font-weight: 100;
+                        }
+                    }
+                    @media (max-width: 480px) {
+                        .title {
+                            line-height: 20px;
+                        }
+                    }
+                }
+                @media (max-width: 480px) {
+                    .delivery_header {
+                        padding: 10px 0 5px 0;
+                    }
+                }
+                .form_info_user {
+                    padding-top: 20px;
+                    .form-group {
+                        .lbl {
+                            text-align: right;
+                            padding-right: 25px;
+                        }
+                        .input {
+                            //background: #fafafa;
+                            height: 32px;
+                            width: 50%;
+                        }
+                        .textarea {
+                            width: 50%;
+                            height: 100px;
+                        }
+                        .select {
+                            background: #fff;
+                        }
+                    }
+                    .delivery_option_wrap {
+                        padding: 10px 0 30px 0;
+                        .title {
+                            font-weight: bold;
+                            font-size: 16px;
+                            color: #202020;
+                            display: inline-block;
+                        }
+                        .delivery_options {
+                            .delivery_options_item {
+                                display: flex;
+                                .radio {
+                                    margin: 10px;
+                                }
+                                .info_option_delivery {
+                                    .info_top {
+                                        display: block;
+                                        font-size: 12px;
+                                    }
+                                    .infor_bottom_date {
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn_submit {
+                        background: #f36b2d;
+                        height: 40px;
+                        line-height: 40px;
+                        font-size: 15px;
+                        text-transform: uppercase;
+                        width: 50%;
+                        color: #fff;
+                        display: block;
+                        text-align: center;
+                        border: none;
+                        padding: 0;
+                        transition: background .35s ease-in-out;
+                        &:hover {
+                            background: #f58958;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .checkout {
+                border: 1px solid #dde2e4;
+                .title {
+                    font-weight: bold;
+                    font-size: 16px;
+                    color: #202020;
+                    line-height: 35px;
+                    .txt_quantity {
+                        font-size: 12px;
+                        color: grey;
+                    }
+                }
+                .table {
+                    margin-bottom: 0;
+                    border-bottom: 1px solid #dde2e4;
+                    .tr_thead {
+                        background: #fafafa;
+                    }
+                    .tr {
+                        .th {
+                            text-transform: uppercase;
+                            color: grey;
+                            font-size: 13px;
+                            font-weight: 600;
+                        }
+                        .th_quantity {
+                            text-align: center;
+                        }
+                        .td {
+                            width: 75%;
+                            color: #202020;
+                        }
+                        .td_quantity {
+                            text-align: center;
+                        }
+                        .product_name {
+                            color: #202020;
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                        .txt_tmp {
+                            font-size: 13px;
+                        }
+                        .txt_ship {
+                            color: #04bd00;
+                            font-size: 13px;
+                        }
+                        .txt_total_price {
+                            font-weight: bold;
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .delivery_wrap {
+                    padding: 7px 30px;
+                    .delivery_time {
+                        display: inline-block;
+                    }
+                }
+                .total_prices {
+                    background: #fafafa;
+                    padding: 0 10px;
+                    border-top: 1px solid #dde2e4;
+                    .pading5 {
+                        padding: 5px 0;
+                        font-size: 13px;
+                    }
+                    .top_total {
+                        .txt_tmp {
+
+                        }
+                        .txt_tmp_price {
+
+                        }
+                    }
+                    .middle_total {
+                        border-bottom: 1px solid #dde2e4;
+                        color: #04bd00;
+                        padding-top: 0px;
+                        .txt_ship {
+
+                        }
+                        .txt_ship_price {
+
+                        }
+                    }
+                    .bottom_total {
+                        padding: 15px 0 5px 0;
+                        font-weight: bold;
+                        font-size: 18px;
+                        .txt_total_price {
+                            color: #202020;
+                        }
+                        .txt_total_price__price {
+                            color: #f57224;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
